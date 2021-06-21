@@ -1,6 +1,6 @@
-Bruna Magrini da Cruz, magrinibruna@usp.br  
-Gabriel Francischini de Souza, gabriel.francischini.souza@usp.br  
-Julia Carolina Frare Peixoto, juliafrare@usp.br  
-Marcus Vinicius Medeiros Pará, marcuspara66@usp.br  
+Bruna Magrini da Cruz  
+Gabriel Francischini de Souza  
+Julia Carolina Frare Peixoto    
+Marcus Vinicius Medeiros Pará    
 
 # Skin Detection in Face Images
