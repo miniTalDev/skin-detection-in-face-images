@@ -11,4 +11,8 @@ Marcus Vinicius Medeiros Pará
 
 Given an image of a face, identify a person's skin and return an image with just the skin.
 
+## Input images
 
+## Steps
+
+## First results
