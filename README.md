@@ -37,4 +37,16 @@ More information about CelebA can be found on: https://mmlab.ie.cuhk.edu.hk/proj
 
 ## Steps
 
+1. Importing libraries
+The first step, of course, is to import the necessary libraries, which, in this case, are imageio, numpy and matplotlib.
+
+2. Reading input
+After that, it's necessary to take input and convert it to a useable format. In this step, we read the filename and use the function `imread` from the imageio library to store it in an 2D array of integers that range from 0 to 255. We're going to use this array to modify the image and get the information that we need.
+
+3. Setting bounds, converting to HSV and creating the skin mask
+Now we set upper and lower bounds for the skintone HSV values. Then, we convert the image's pixels from an RGB to an HSV format. All these variables are then used to create the skin mask, which basically filters which points of the converted image are within the bounds that we set and returns a new image based on that. This image is supposed to be a binary separation of which points of the image are skin and which of them are not skin. Finally, we pass the new image through a median filter.
+
+4. Applying mask over the original image
+In this last step, we just use a multiply function to apply the face mask over the original image. The output is an image that shows only the part of the original image that represents the skintone.
+
 ## First results
