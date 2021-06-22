@@ -55,4 +55,12 @@ Now we set upper and lower bounds for the skintone HSV values. Then, we convert 
 
 In this last step, we just use a multiply function to apply the face mask over the original image. The output is an image that shows only the part of the original image that represents the skintone.
 
+5. (Not implemented yet) Face recognition
+
+The current approach that we're using here is quite limited. It's only able to recognize skintones in a very limited color range that was set in the code. To improve on that, we intend to implement face recognition methods in order to detect the subject's actual skintone range, instead of using fixed bounds. This step will take place between steps 2 and 3.
+
+6. (Not implemented yet) Erosions, dilations and Gaussian blur
+
+With the current method, it's possible that we end up detecting many false-positive regions. In order to remove these regions, we intend to implement an elliptical structuring kernel that will perform erosions and dilations on the mask. After that, we'll apply Gaussian blur to the mask to give it a smoother look. This step will take place between steps 3 and 4.
+
 ## First results
