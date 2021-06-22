@@ -14,7 +14,7 @@ In Skin Detection, the aim is to find skin tone pixels and regions in an image o
 With this brief definition in mind, <ins>this project goal is to detect a person's skin in an image that contains a face and return an image with just the skin.</ins>
 We are not considering aspects of blocking (faces covered by a mask), recognition (defaced faces by distortions) or any kind of lossy data. Therefore, any skin detected with these obstacles on the face will be just a gain for the main objective. It is worth to mention that we are using the CelebA dataset and in this dataset every image contains only one face, so multiple faces is not something we are dealing with. We are also using OpenCV library.
 
-On the instructions below it is described how we collected the images from the dataset and the step-by-step on how to detect the skin:
+On the instructions below it is described how we collect the images from the dataset and the step-by-step on how to detect the skin:
 
 ## Input images
 
