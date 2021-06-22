@@ -37,6 +37,8 @@ More information about CelebA can be found on: https://mmlab.ie.cuhk.edu.hk/proj
 
 ## Steps
 
+To achieve our results we're using image segmentation and color image processing techniques. The steps are the following:
+
 1. Importing libraries
 
 The first step, of course, is to import the necessary libraries, which, in this case, are imageio, numpy and matplotlib.
