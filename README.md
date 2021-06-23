@@ -13,7 +13,7 @@ In Skin Detection, the aim is to find skin tone pixels and regions in an image o
 
 With this brief definition in mind, <ins>this project goal is to detect a person's skin in an image that contains a face and return an image with just the skin.</ins> We will achieve it by setting boundaries, converting to HSV and applying a mask. (See Steps)
 
-We are not considering aspects of blocking (faces covered by a mask or intense make-up), recognition (defaced faces by distortions) or any kind of lossy data. Therefore, any skin detected with these obstacles on the face will be just a gain for the main objective. However, <ins>in the final report</ins>, we intend to have some kind of treatment for face recognition, to avoid some false-positive regions. It is worth to mention that we are using the CelebA dataset and in this dataset every image contains only one face per image, so multiple faces is not something we are dealing with.
+We are not considering aspects of blocking (faces covered by a mask or intense make-up), recognition (defaced faces by distortions) or any kind of lossy data. Therefore, any skin detected with these obstacles on the face will be just a gain for the main objective. However, <ins>in the final report</ins>, we intend to have some kind of treatment for face recognition, to avoid some false-positive regions. Additionally, it is worth to mention that we are using the CelebA dataset and in this dataset every image contains only one face per image, so multiple faces is not something we are dealing with.
 
 On the instructions below it is described how we collect the images from the dataset, the step-by-step on how to detect the skin and the future implementations:
 
