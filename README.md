@@ -64,3 +64,13 @@ The current approach that we're using here is quite limited. It's only able to r
 With the current method, it's possible that we end up detecting many false-positive regions. In order to remove these regions, we intend to implement an elliptical structuring kernel that will perform erosions and dilations on the mask. After that, we'll apply Gaussian blur to the mask to give it a smoother look. This will take place between steps 3 and 4.
 
 ## First results
+
+The current script was able to get the following results.
+
+![Input 1](./img_align_celeba/000003.jpg)
+![Input 2](./img_align_celeba/000006.jpg)
+![Input 3](./img_align_celeba/000007.jpg)
+
+![Output 1](./output/000003.png)
+![Output 2](./output/000006.png)
+![Output 3](./output/000007.png)
