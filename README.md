@@ -68,10 +68,10 @@ With the current method, it's possible that we end up detecting many false-posit
 
 The current script was able to get the following results.
 
-![Input 1](./img_align_celeba/000003.jpg)
-![Input 2](./img_align_celeba/000006.jpg)
-![Input 3](./img_align_celeba/000007.jpg)
+![Input 1](./images/test/000003.jpg)
+![Input 2](./images/test/000006.jpg)
+![Input 3](./images/test/000007.jpg)
 
-![Output 1](./output/000003.png)
-![Output 2](./output/000006.png)
-![Output 3](./output/000007.png)
+![Output 1](./images/test/output/000003.png)
+![Output 2](./images/test/output/000006.png)
+![Output 3](./images/test/output/000007.png)
