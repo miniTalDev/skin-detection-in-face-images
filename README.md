@@ -96,4 +96,4 @@ Gabriel Francischini de Souza - Implementing functions to read the CelebA databa
 
 Julia Carolina Frare Peixoto - Implementing gaussian blur
 
-Marcus Vinicius Medeiros Pará - Implementing face recognition
+Marcus Vinicius Medeiros Pará - Implementing face detection
