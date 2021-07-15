@@ -48,22 +48,21 @@ The first step, of course, is to import the necessary libraries, which, in this 
 
 After that, it's necessary to take input and convert it to a useable format. In this step, we read the filename and use the function `imread` from the imageio library to store it in an 2D array of integers that range from 0 to 255. We're going to use this array to modify the image and get the information that we need.
 
-3. Setting bounds, converting to HSV and creating the skin mask
+3. Face recognition
+
+The current approach that we're using here is quite limited. It's only able to recognize skintones in a very limited color range that was set in the code. To improve on that, we intend to implement face recognition methods in order to detect the subject's actual skintone range, instead of using fixed bounds.
+
+4. Setting bounds, converting to HSV and creating the skin mask
 
 Now we set upper and lower bounds for the skintone HSV values. Then, we convert the image's pixels from an RGB to an HSV format. All these variables are then used to create the skin mask, which basically filters which points of the converted image are within the bounds that we set and returns a new image based on that. This image is supposed to be a binary separation of which points of the image are skin and which of them are not skin. Finally, we pass the new image through a median filter.
 
-4. Erosions, dilations and Gaussian blur
+5. Erosions, dilations and Gaussian blur
 
 With the current method, it's possible that we end up detecting many false-positive regions. In order to remove these regions, we intend to implement an elliptical structuring kernel that will perform erosions and dilations on the mask. After that, we'll apply Gaussian blur to the mask to give it a smoother look. This will take place between steps 3 and 4.
 
-5. Applying mask over the original image
+6. Applying mask over the original image
 
 In this last step, we just use a multiply function to apply the face mask over the original image. The output is an image that shows only the part of the original image that represents the skintone.
-
-
-6. (Not implemented yet) Face recognition
-
-The current approach that we're using here is quite limited. It's only able to recognize skintones in a very limited color range that was set in the code. To improve on that, we intend to implement face recognition methods in order to detect the subject's actual skintone range, instead of using fixed bounds. This will take place between steps 2 and 3.
 
 ## First results
 
