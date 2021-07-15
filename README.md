@@ -44,7 +44,7 @@ To achieve our results we're using image segmentation and color image processing
 
 1. Importing libraries
 
-The first step, of course, is to import the necessary libraries, which, in this case, are imageio, numpy and matplotlib.
+The first step, of course, is to import the necessary libraries, which, in this case, are imageio, numpy, matplotlib, opencv, pandas, scipy and skimage, as well as zipfile, os, shutil and urllib.request for other utilities. 
 
 2. Reading input
 
