@@ -90,7 +90,7 @@ As the images show, it turns out the final results weren't as good as expected. 
 
 ## Roles
 
-Bruna Magrini da Cruz - Implementing erosions and dilations
-Gabriel Francischini de Souza - Implementing functions to read the CelebA database
-Julia Carolina Frare Peixoto - Implementing gaussian blur
-Marcus Vinicius Medeiros Pará - Implementing face recognition
+Bruna Magrini da Cruz - Implementing erosions, dilations and modularizing code  
+Gabriel Francischini de Souza - Implementing functions to read the CelebA database  
+Julia Carolina Frare Peixoto - Implementing gaussian blur  
+Marcus Vinicius Medeiros Pará - Implementing face recognition  
