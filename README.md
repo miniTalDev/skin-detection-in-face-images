@@ -58,7 +58,7 @@ Now we set upper and lower bounds for the skintone HSV values. Then, we convert 
 
 5. Erosions, dilations and Gaussian blur
 
-With the current method, it's possible that we end up detecting many false-positive regions. In order to remove these regions, we intend to implement an elliptical structuring kernel that will perform erosions and dilations on the mask. The erosions should remove the false-positives by making them disappear from the mask, while the dilations/closing should remove the holes in the remaining parts of the mask. After that, we'll apply Gaussian blur to the mask to give it a smoother look.
+With the current method, it's possible that we end up detecting many false-positive regions. In order to remove these regions, we intend to implement an elliptical structuring kernel that will perform erosions and dilations on the mask. The erosions should remove the false-positives by making them disappear from the mask, while the dilations/closing should remove the holes in the remaining parts of the mask. After that, we'll apply Gaussian blur to the mask to give it a smoother look and remove any remaining holes.
 
 6. Applying mask over the original image
 
