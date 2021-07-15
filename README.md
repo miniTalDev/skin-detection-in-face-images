@@ -88,7 +88,9 @@ The final script was able to get the following results.
 ![Input 2](./images/test/final/000006.jpg)
 ![Input 3](./images/test/final/000007.jpg)
 
-As the images show, it turns out the final results weren't as good as expected. In fact, they turned out worse than the results obtained with the initial script.
+As the images show, the final code had very similar results to the initial code. The results weren't bad, but we expected a bigger improvement.
+
+In the first image, the final results are slightly better, removing some parts of the hair. In the other two they are slightly worse, since they remove some parts of the actual skin.
 
 ## Roles
 
