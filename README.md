@@ -64,9 +64,9 @@ With the current method, it's possible that we end up detecting many false-posit
 
 In this last step, we just use a multiply function to apply the face mask over the original image. The output is an image that shows only the part of the original image that represents the skintone.
 
-## First results
+## Results
 
-The current script was able to get the following results.
+The first script was able to get the following results.
 
 ![Input 1](./images/test/000003.jpg)
 ![Input 2](./images/test/000006.jpg)
@@ -75,3 +75,22 @@ The current script was able to get the following results.
 ![Output 1](./images/test/output/000003.png)
 ![Output 2](./images/test/output/000006.png)
 ![Output 3](./images/test/output/000007.png)
+
+The final script was able to get the following results.
+
+![Input 1](./images/test/image1.png)
+![Input 2](./images/test/image2.png)
+![Input 3](./images/test/image3.png)
+
+![Output 1](./images/test/output/image1.png)
+![Output 2](./images/test/output/image2.png)
+![Output 3](./images/test/output/image3.png)
+
+As the images show, it turns out the final results weren't as good as expected. In fact, they turned out worse than the results obtained with the initial script.
+
+## Roles
+
+Bruna Magrini da Cruz - Implementing erosions and dilations
+Gabriel Francischini de Souza - Implementing functions to read the CelebA database
+Julia Carolina Frare Peixoto - Implementing gaussian blur
+Marcus Vinicius Medeiros Pará - Implementing face recognition
