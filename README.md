@@ -52,7 +52,7 @@ After that, it's necessary to take input and convert it to a useable format. In 
 
 3. Face detection
 
-The current approach that we're using here is quite limited. It's only able to detect skintones in a very limited color range that was set in the code. To improve on that, we tried to implement face detection methods in order to detect the subject's actual skintone range, instead of using fixed bounds. As mentioned before, the results for face detection were not as satisfactory as we planned, so we left both codes to comparison. The difference of both approaches can be seem on Results.
+The current approach that we're using here is quite limited. It's only able to detect skintones in a very limited color range that was set in the code. To improve on that, we tried to implement face detection methods in order to detect the subject's actual skintone range, instead of using fixed bounds. As mentioned before, the results for face detection were not as satisfactory as we planned, so we left both codes to comparison. The difference of both approaches can be seem on Results, but it's worth to say the new results for comparison also includes opening, closing and the gaussian blur.
 
 4. Setting bounds, converting to HSV and creating the skin mask
 
