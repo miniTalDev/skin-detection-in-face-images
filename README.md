@@ -15,7 +15,7 @@ With this brief definition in mind, <ins>this project goal is to detect a person
 
 We are not considering aspects of blocking (faces covered by a mask or intense make-up), recognition (defaced faces by distortions) or any kind of lossy data. Therefore, any skin detected with these obstacles on the face will be just a gain for the main objective. Additionally, it is worth to mention that we are using the CelebA dataset and in this dataset every image contains only one face per image, so multiple faces is not something we are dealing with.
 
-In the final report, we tried to reproduce the face detection, because we were having some false-positive areas on the image, but the results weren't as satisfactory as we planned, so we left two versions of the python project available, one without face detection and one with face detection.
+In the final report, we tried to reproduce the face detection, because we were having some false-positive areas on the image, but the results weren't as satisfactory as we planned, so we left two versions of the python project available, one without face detection `skin-detection.ipynb` and one with face detection `skin-detection-with-face-detection.ipynb`. We are considering that the final project is the `skin-detection.ipynb`.
 
 On the instructions below it is described how we collect the images from the dataset, the step-by-step on how to detect the skin and the future implementations:
 
