@@ -72,19 +72,19 @@ The first script was able to get the following results.
 ![Input 2](./images/test/000006.jpg)
 ![Input 3](./images/test/000007.jpg)
 
-![Output 1](./images/test/output/000003.png)
-![Output 2](./images/test/output/000006.png)
-![Output 3](./images/test/output/000007.png)
+![Output 1](./images/test/parcial/000003.png)
+![Output 2](./images/test/parcial/000006.png)
+![Output 3](./images/test/parcial/000007.png)
 
 The final script was able to get the following results.
 
-![Input 1](./images/test/image1.png)
-![Input 2](./images/test/image2.png)
-![Input 3](./images/test/image3.png)
+![Input 1](./images/test/000003.jpg)
+![Input 2](./images/test/000006.jpg)
+![Input 3](./images/test/000007.jpg)
 
-![Output 1](./images/test/output/image1.png)
-![Output 2](./images/test/output/image2.png)
-![Output 3](./images/test/output/image3.png)
+![Input 1](./images/test/final/000003.jpg)
+![Input 2](./images/test/final/000006.jpg)
+![Input 3](./images/test/final/000007.jpg)
 
 As the images show, it turns out the final results weren't as good as expected. In fact, they turned out worse than the results obtained with the initial script.
 
