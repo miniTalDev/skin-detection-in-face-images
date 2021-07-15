@@ -14,6 +14,7 @@ In Skin Detection, the aim is to find skin tone pixels and regions in an image o
 With this brief definition in mind, <ins>this project goal is to detect a person's skin in an image that contains a face and return an image with just the skin.</ins> We will achieve it by setting boundaries, converting to HSV and applying a mask. (See Steps)
 
 We are not considering aspects of blocking (faces covered by a mask or intense make-up), recognition (defaced faces by distortions) or any kind of lossy data. Therefore, any skin detected with these obstacles on the face will be just a gain for the main objective. Additionally, it is worth to mention that we are using the CelebA dataset and in this dataset every image contains only one face per image, so multiple faces is not something we are dealing with.
+
 In the final report, we tried to reproduce the face detection, because we were having some false-positive areas on the image, but the results weren't as satisfactory as we planned, so we left two versions of the python project available, one without face detection and one with face detection.
 
 On the instructions below it is described how we collect the images from the dataset, the step-by-step on how to detect the skin and the future implementations:
@@ -51,7 +52,7 @@ After that, it's necessary to take input and convert it to a useable format. In 
 
 3. Face detection
 
-The current approach that we're using here is quite limited. It's only able to recognize skintones in a very limited color range that was set in the code. To improve on that, we tried to implement face recognition methods in order to detect the subject's actual skintone range, instead of using fixed bounds. As mentioned before, the results for face recognition were not as satisfactory as we planned, so we left both codes to comparison. The difference of both approaches can be seem on Results.
+The current approach that we're using here is quite limited. It's only able to detect skintones in a very limited color range that was set in the code. To improve on that, we tried to implement face detection methods in order to detect the subject's actual skintone range, instead of using fixed bounds. As mentioned before, the results for face detection were not as satisfactory as we planned, so we left both codes to comparison. The difference of both approaches can be seem on Results.
 
 4. Setting bounds, converting to HSV and creating the skin mask
 
