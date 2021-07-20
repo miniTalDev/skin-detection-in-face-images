@@ -90,6 +90,16 @@ The final script was able to get the following results.
 
 As the images show, the final code had very similar results to the initial code. The results weren't bad, but we expected a bigger improvement.
 
+The tests with dark skin colors are shown below.
+
+![Input 1](./images/test/000386.jpg)
+![Input 2](./images/test/000332.jpg)
+![Input 3](./images/test/000336.jpg)
+
+![Input 1](./images/test/final/000386.jpg)
+![Input 2](./images/test/final/000332.jpg)
+![Input 3](./images/test/final/000336.jpg)
+
 In the first image, the final results are slightly better, removing some parts of the hair. In the other two they are slightly worse, since they remove some parts of the actual skin. In the third image in particular, it removes parts of the skin while keeping the eyes, which is not an intended result.
 
 ## Roles
